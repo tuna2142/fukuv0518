@@ -6,5 +6,20 @@ namespace fukuv0518
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Text = "ŠÖ‰ª Œõ";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Left = 0;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Visible = false;
+        }
     }
 }
